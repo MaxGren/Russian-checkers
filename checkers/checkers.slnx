@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../RussianCheckers.AI/RussianCheckers.AI.csproj" />
+  <Project Path="../RussianCheckers.Core/RussianCheckers.Core.csproj" />
+  <Project Path="../RussianCheckers.Data/RussianCheckers.Data.csproj" />
+  <Project Path="../RussianCheckers.Tests/RussianCheckers.Tests.csproj" />
+  <Project Path="checkers.csproj" />
+</Solution>

@@ -1,0 +1,47 @@
+﻿<Window x:Class="checkers.Views.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Русские шашки — Регистрация"
+        Height="500"
+        Width="450"
+        WindowStartupLocation="CenterScreen"
+        >
+
+    <Grid Margin="35">
+        <StackPanel VerticalAlignment="Top" Height="370" Margin="0,30,0,0">
+
+            <TextBlock Text="Регистрация"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,25"/>
+
+            <TextBlock Text="Логин" />
+            <TextBox x:Name="LoginTextBox"
+                     Height="32"
+                     Margin="0,5,0,15"/>
+
+            <TextBlock Text="Пароль" />
+            <PasswordBox x:Name="PasswordInput"
+                         Height="32"
+                         Margin="0,5,0,15"/>
+
+            <TextBlock Text="Повторите пароль" />
+            <PasswordBox x:Name="ConfirmPasswordInput"
+                         Height="32"
+                         Margin="0,5,0,25"/>
+
+            <Button x:Name="RegisterButton"
+                    Content="Зарегистрироваться"
+                    Height="38"
+                    Click="RegisterButton_Click"/>
+
+            <Button Content="Назад"
+                    Height="38
+                    "
+                    Margin="0,10,0,0"
+                    Click="BackButton_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
